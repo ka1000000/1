@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "assets",
+			"path": "../../star-wars-personagens/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "assets"
+	}
+}
