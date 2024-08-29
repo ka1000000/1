@@ -1,0 +1,287 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nave{
+    background-color: #333;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+li a{
+color: 	#DCDCDC;
+
+}
+
+li a:hover{
+    color: #fff;
+}
+
+#bottom-header{
+    border-bottom: 1px solid #333;
+    padding: 1.5rem;
+}
+#bottom-header-inner{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.izz{
+    color: #333;
+}
+
+.izz:hover{
+    color:#000;
+}
+
+#bottom-header a{
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  
+}
+#bottom-header-links.btn{
+    color: white;
+}
+
+#bottom-header-inner.btns,
+.btn{
+    background-color: #0071e3;
+    color: white;
+    border-radius: 10rem;
+    padding: .4rem 1rem;
+}
+
+#main-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ribbon{
+background-color: #f5f5f7;
+padding: 1rem;
+text-align: center;
+color: #1d1d1d;
+}
+
+#ribbon p {
+    font-size: .9rem;
+}
+
+#ribbon a{
+    color: #0071e3;
+}
+
+#title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#subtitle{
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#description{
+    max-width: 550px;
+    margin: 2rem  auto;
+    line-height: 1.5rem; /* line-height = Espeçamento das linhas do texto*/
+    font-size: 1.2rem;
+}
+
+#price{
+    color: #86868b;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.btn{
+    width: 85px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#product-image{
+    max-width: 1000px;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: .5s;
+}
+
+#product-image.changing{
+  opacity: .5;
+}
+
+#image-picker{
+    margin-bottom: 15rem;
+
+}
+
+#image-picker ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-picker li {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#image-picker li .color{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 1px 1px 1px;
+    pointer-events: none;
+}
+
+.selected{
+outline:  2px solid #43a1ff;
+}
+
+.description{
+    font-size: .8rem;
+    margin-top: .6rem;
+    color: #1d1d1d;
+}
+
+#green .color{
+    background-color: #394c38;
+}
+
+#silver .color{
+    background-color: #f1f2ed;
+}
+
+#golden .color{
+    background-color: #fae7cf;
+}
+
+#grafite .color{
+    background-color: #54524f;
+}
+
+#blue .color{
+    background-color: #a7c1d9;
+}
+
+@media (max-width:912px){
+    #main-content{
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+@media (max-width:540px){
+    #navbar li{
+        display: none;
+    }
+  
+    #navbar #logo{ 
+        display: flex;
+    }
+  
+  #bottom-header-links a{
+    display: none;
+  }
+
+  #bottom-header-links .btn{
+    display: flex;
+    width: 69px;
+  }
+}
+
+@media (max-width:725px){
+    #navbar li{
+        display: none;
+    }
+  
+    #navbar #logo{ 
+        display: flex;
+    }
+  
+  #bottom-header-links a{
+    display: none;
+  }
+
+  #bottom-header-links .btn{
+    display: flex;
+    width: 69px;
+  }
+}
+
+@media (max-width:480px){
+    #navbar li{
+        display: none;
+    }
+  
+    #navbar #logo{ 
+        display: flex;
+    }
+  
+  #bottom-header-links a{
+    display: none;
+  }
+
+  #bottom-header-links .btn{
+    display: flex;
+    width: 69px;
+  }
+
+  #main-content{
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+  #subtitle{
+    font-size: 3rem;
+  }
+
+  .color{
+   width: 1.5rem;
+   height: 1.5rem;
+  }
+}
+
+@media (max-width:820px){
+    #main-content{
+        padding: 2rem;
+        overflow: hidden;
+      }
+}
+
