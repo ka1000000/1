@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7c3eed;
+}
+
+.login-form{
+    background-color: white;
+    width: 320px;
+    height: 440px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 8px 8px rgba(0,0,0,0.5);
+}
+
+.form-header{
+   width: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    border-bottom: 3px solid #7c3eed;
+}
+
+
+#mode-icon{
+    cursor: pointer;
+}
+
+.social-media{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid #7c3eed;
+}
+
+#name{
+    width: 240px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-box label{
+    font-size: 14px;
+    color:#7d7575;
+    background-color: transparent;
+}
+
+.input-field i{
+    font-size: 18px;
+    color: black;
+}
+
+#forgot-password a{
+    text-decoration: none;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#forgot-password a:hover{
+    color: #7c3eed;
+}
+
+button{
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: #7c3eed;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale();
+}
+
+.dark.login-form{
+    background-color: #373836;
+    color: white;
+}
+
+.dark input{
+    color: white;
+}
+.dark i{
+    color: white;
+}
+
+.dark button{
+    color: white;
+}
+
+.dark #forgot-password a{
+    color: white;
+}
+
+.dark #forgot-password a:hover{
+    color: #7c3eed;
+}
+
+
