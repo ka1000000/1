@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="planets.css">
+</head>
+<body>
+
+    <header>
+        <div class="character-container">
+        <img src="star-wars-logo (1).png" alt="" class="logo-img"> 
+        <a href="index.html">
+            <span class="header-name">Personagens</span>  
+        </a> 
+        <a href="planets.html">
+            <span class="header-name">Planetas</span>  
+        </a>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/kaio_eduardo_dz9/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100008976009510" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>Conheca todos os Planetas em um so lugar</h2>
+        <div class="main-content"></div>
+
+        <div class="modal" onclick="hideModal()">
+            <div class="modal-content"></div>
+        </div>
+        
+
+
+
+        <div class="buttons">
+            <button class="back-button" onclick="loadPreviousPage()">Anterior</button>
+            <button class="next-button" onclick="loadNextPage()">Proxima</button>
+        </div>
+    </div>
+
+    <footer>
+        <span class="footer-s">Star Wars Characters</span>
+        <span class="footer-d">Desenvolvido por &copy; Kaio Eduardo</span>
+    </footer>
+   
+
+    <script src="https://kit.fontawesome.com/fd43f74fad.js" crossorigin="anonymous"></script>
+    <script src="planets.js"></script>
+</body>
+</html>
